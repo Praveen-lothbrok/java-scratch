@@ -1,0 +1,25 @@
+public class Eg_emplyee_details 
+{
+	public static void main(String[] args) 
+	{
+		//*Variable declaration
+		String name;
+		int id;
+		long ph_no;
+		double salary;
+		
+		//* Variable initialization
+		name="Praveen";
+		id =1234;
+		ph_no= 8585434312l; //* ph no. digits ends "l" because it declared as long data type
+							//* long is used because of the length of the ph no. value
+		salary=24000.37;
+		
+		//*variable utilization
+		System.out.println("Name: "+name );
+		System.out.println("id: "+id);
+		System.out.println("phone number: "+ph_no);
+		System.out.println("salary: "+salary);	
+		
+	}
+}
